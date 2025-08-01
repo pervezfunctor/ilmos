@@ -3,7 +3,8 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM registry.fedoraproject.org/fedora-bootc:42
+FROM ghcr.io/ublue-os/aurora-dx:stable
+#FROM registry.fedoraproject.org/fedora-bootc:42
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest
